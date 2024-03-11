@@ -1,0 +1,37 @@
+INSERT INTO students (id, name, age) VALUES ('Anna', 25), ('Maria', 23), ('Roman', 28);
+
+Практика: создать БД и таблицу, вставить данные
+    1. БД: geography
+    2. Таблица: countries (id, name, population, area)
+    3. Добавить 5 стран (из них хотя бы одну с населением больше 1 млрд и хотя бы одну с населением меньше 1 млн)
+	
+	CREATE DATABASE geography OWNER postgres;
+
+CREATE TABLE students (
+	id serial PRIMARY KEY,
+  name varchar(80),
+  population integer, 
+  area integer
+);
+
+INSERT INTO students (name, population, area) VALUES
+	('Germany', 80, 300),
+	('Hobitania', 230, 100),
+	('Mordor', 280, 500);
+
+
+
+	
+
+CREATE DATABASE students_db OWNER postgres;
+
+CREATE TABLE students (
+	id serial PRIMARY KEY,
+  name varchar(80),
+  age integer
+);
+
+INSERT INTO students (name, age) VALUES
+	('Anna', 25),
+	('Maria', 23),
+	('Roman', 28);
