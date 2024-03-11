@@ -1,5 +1,3 @@
-SELECT SUM(chief) AS total_inhabitants FROM village;
-
 SELECT * FROM inhabitant;
 
 SELECT * FROM inhabitant WHERE state = 'friendly';
@@ -26,6 +24,7 @@ UPDATE inhabitant SET name = 'Valerii' WHERE personid = 20;
 
 SELECT * FROM inhabitant WHERE job = "baker" ORDER BY gold DESC;
 
+SELECT SUM(chief) AS total_inhabitants FROM village;
 
 
 
