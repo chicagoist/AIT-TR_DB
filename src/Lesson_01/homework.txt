@@ -1,0 +1,33 @@
+SELECT SUM(chief) AS total_inhabitants FROM village;
+
+SELECT * FROM inhabitant;
+
+SELECT * FROM inhabitant WHERE state = 'friendly';
+
+SELECT * FROM inhabitant WHERE state = 'friendly' AND job = 'weaponsmith';
+
+SELECT personid FROM inhabitant WHERE name = 'Stranger';
+
+SELECT gold FROM inhabitant WHERE personid  = 20;
+
+SELECT item FROM ITEM WHERE owner is null;
+
+UPDATE item SET owner = 20 WHERE owner is null;
+
+
+SELECT * FROM item WHERE owner  = 20;
+
+SELECT * FROM inhabitant  WHERE (job = 'dealer' OR job = 'merchant') AND state = 'friendly';
+
+UPDATE ITEM SET owner = 15 WHERE item = 'ring' OR item = 'teapot';
+
+UPDATE inhabitant SET name = 'Valerii' WHERE personid = 20;
+
+
+SELECT * FROM inhabitant WHERE job = "baker" ORDER BY gold DESC;
+
+
+
+
+
+
