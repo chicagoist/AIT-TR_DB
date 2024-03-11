@@ -35,3 +35,13 @@ INSERT INTO students (name, age) VALUES
 	('Anna', 25),
 	('Maria', 23),
 	('Roman', 28);
+	
+1. Обновить население у одной страны по названию
+2. Если у страны население больше 1 млрд, увеличить площадь до 4 млн км2
+
+UPDATE
+  students
+SET
+  age = 30
+WHERE
+  name = 'Alisher';
