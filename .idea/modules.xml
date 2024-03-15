@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AIT-TR_PostgreSQL.iml" filepath="$PROJECT_DIR$/AIT-TR_PostgreSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AIT-TR_DB.iml" filepath="$PROJECT_DIR$/AIT-TR_DB.iml" />
     </modules>
   </component>
 </project>
