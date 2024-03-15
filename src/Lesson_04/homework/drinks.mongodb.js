@@ -1,6 +1,6 @@
 use("drinks_db");
 
-db.drinks.drop();
+//db.drinks.drop();
 
 db.drinks.insertMany([
     { _id: 1, title: 'Rum', country: 'Jamaica', vol: 70 },
